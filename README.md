@@ -14,15 +14,23 @@ Current Work
 - NSERC USRA project: developed a biomedical TextSpan-style corpus for interpreting biomedical vision-language models
 - COMP 490 research: validating a biomedical corpus for BiomedCLIP/TextSpan interpretability across public biomedical imaging datasets
 - Selected ML project: time-series temperature forecasting using regression models and preprocessing pipelines
+- Power BI project: end-to-end hotel booking analytics (Python ETL -> star schema -> DAX -> 4-page report, version-controlled as a Power BI Project)
 
 Technical Skills
 - Python, PyTorch, scikit-learn, NumPy, Matplotlib
 - BiomedCLIP, TextSpan, BioBERT, BERTScore, LLM-based evaluation
+- Power BI, DAX, Power Query, data modelling (star schema)
 - SQL, Java, JavaScript, HTML/CSS
 - Linux, Windows, Microsoft 365, VS Code
 
-Selected Project
-ForecastPrediction
+Selected Projects
+[hotel-booking-powerbi](https://github.com/JasmineLJM/hotel-booking-powerbi)
+A Power BI analysis of 119,208 hotel bookings (two hotels in Portugal, 2015-2017).
+- Cleaned the data in Python and modelled it as a star schema (1 fact table, 8 dimensions, marked date table)
+- Wrote 29 DAX measures, including weighted ADR, cancellation rates and year-over-year growth on comparable months
+- Built a 4-page report on revenue, cancellations, guest markets and seasonal pricing; found that bookings made over a year ahead cancel 68% of the time vs 10% for last-week bookings
+
+[ForecastPrediction](https://github.com/JasmineLJM/ForecastPrediction)
 A machine learning project for forecasting daily high temperatures in Montreal using weather station data.
 - Built preprocessing pipelines for daily aggregation, missing value imputation, feature engineering, and outlier handling
 - Compared Linear Regression, Neural Networks, SVR, and Random Forest models
